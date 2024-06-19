@@ -1,2 +1,53 @@
-# laprak-3
-web
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Formulir Pendaftaran Anggota klub Olahraga</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <form action="index.php" method="post">
+        <h2>Formulir Pendaftaran Anggota Klub Olahraga</h2>
+        <form action ="index.php" method="post">
+        <label for="nama_lengkap">Nama Lengkap</label>
+        <input type="text" id="nama_lengkap" name="nama_lengkap" required>
+
+        <label for="alamat_email">Alamat Email</label>
+        <input type="email" id="alamat_email" name="alamat_email" required>
+
+        <label for="nomor_telepon">Nomor Telepon</label>
+        <input type="tel" id="nomor_telepon" name="nomor_telepon" required>
+
+        <label for="tanggal_lahir">Tanggal Lahir</label>
+        <input type="date" id="tanggal_lahir" name="tanggal_lahir" required>
+
+        <label for="alamat_rumah">Alamat Rumah</label>
+        <input type="text" id="alamat_rumah" name="alamat_rumah" required>
+
+        <label for="kota">Kota</label>
+        <input type="text" id="kota" name="kota" required>
+
+        <label for="Provinsi">Provinsi</label>
+        <input type="text" id="Provinsi" name="kota" required>
+
+        <label for="kode_pos">Kode Pos</label>
+        <input type="text" id="kode_pos" name="kode_pos" required>
+
+        <label for="jenis_kelamin">Jenis Kelamin</label>
+        <select id="jenis_kelamin" name="jenis_kelamin" required>
+            <option value="laki-laki">Laki-laki</option>
+            <option value="perempuan">Perempuan</option>
+        </select>
+
+        <label for="Cabang_Olahraga_Pilihan">Cabang Olahraga Pilihan</label>
+        <input type="text" id="Cabang_Olahraga_Pilihan" name="Cabang_Olahraga_Pilihan" required>
+
+        <label for="riwayat_olahraga_sebelumnya">riwayat olahraga sebelumnya</label>
+        <textarea id="riwayat_olahraga_sebelumnya" name="riwayat_olahraga_sebelumnya" rows="3" required></textarea>
+
+        <input type="submit" value="Daftar">
+    </form>
+</body>
+</html>
+
