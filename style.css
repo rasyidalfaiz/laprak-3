@@ -1,0 +1,49 @@
+/* Styles for Form */
+form {
+    max-width: 550px;
+    margin: 0 auto;
+    padding: 20px;
+    border: 1px solid #c45624cc;
+    border-radius: 5px;
+    background-color: #c45624cc;
+}
+
+/* Styles for Labels, Inputs, and Selects */
+label, input, select {
+    display: block;
+    margin-bottom: 10px;
+}
+
+input[type="text"],
+input[type="email"],
+input[type="tel"],
+input[type="date"],
+select {
+    width: 100%;
+    padding: 8px;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+}
+
+/* Styles for Submit Button */
+input[type="submit"] {
+    background-color: #1848e2;
+    color: white;
+    padding: 10px 20px;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+}
+
+input[type="submit"]:hover {
+    background-color: #3eaf44;
+}
+
+/* Styles for Background Image */
+body {
+    background-image: url('poster fix.jpg'); 
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+    padding: 20px;
+}
